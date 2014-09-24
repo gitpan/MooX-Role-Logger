@@ -3,7 +3,7 @@ use warnings;
 
 package MooseX::Role::Logger;
 # ABSTRACT: Provide logging via Log::Any (DEPRECATED)
-our $VERSION = '0.004'; # VERSION
+our $VERSION = '0.005'; # VERSION
 
 use Moo::Role;
 with 'MooX::Role::Logger';
@@ -25,7 +25,7 @@ MooseX::Role::Logger - Provide logging via Log::Any (DEPRECATED)
 
 =head1 VERSION
 
-version 0.004
+version 0.005
 
 =head1 DESCRIPTION
 

@@ -50,7 +50,6 @@
          "requires" : {
             "Log::Any" : "0",
             "Moo::Role" : "0",
-            "Types::Standard" : "0",
             "perl" : "5.006",
             "strict" : "0",
             "warnings" : "0"
@@ -74,11 +73,11 @@
    "provides" : {
       "MooX::Role::Logger" : {
          "file" : "lib/MooX/Role/Logger.pm",
-         "version" : "0.004"
+         "version" : "0.005"
       },
       "MooseX::Role::Logger" : {
          "file" : "lib/MooseX/Role/Logger.pm",
-         "version" : "0.004"
+         "version" : "0.005"
       }
    },
    "release_status" : "stable",
@@ -93,7 +92,7 @@
          "web" : "https://github.com/dagolden/MooX-Role-Logger"
       }
    },
-   "version" : "0.004",
+   "version" : "0.005",
    "x_authority" : "cpan:DAGOLDEN"
 }
 

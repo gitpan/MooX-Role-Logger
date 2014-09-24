@@ -14,7 +14,7 @@ David
 Golden
 dagolden
 lib
-MooseX
+MooX
 Role
 Logger
-MooX
+MooseX

@@ -24,7 +24,6 @@ do { my $x = {
                       'requires' => {
                                       'Log::Any' => '0',
                                       'Moo::Role' => '0',
-                                      'Types::Standard' => '0',
                                       'perl' => '5.006',
                                       'strict' => '0',
                                       'warnings' => '0'

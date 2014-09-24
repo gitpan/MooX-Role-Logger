@@ -2,7 +2,7 @@ NAME
     MooX::Role::Logger - Provide logging via Log::Any
 
 VERSION
-    version 0.004
+    version 0.005
 
 SYNOPSIS
     In your modules:

@@ -3,10 +3,9 @@ use warnings;
 
 package MooX::Role::Logger;
 # ABSTRACT: Provide logging via Log::Any
-our $VERSION = '0.004'; # VERSION
+our $VERSION = '0.005'; # VERSION
 
 use Moo::Role;
-use Types::Standard qw/Str/;
 
 use Log::Any ();
 
@@ -24,13 +23,10 @@ has _logger => (
 
 sub _build__logger {
     my ($self) = @_;
-    return Log::Any->get_logger( category => $self->_logger_category );
+    return Log::Any->get_logger( category => "" . $self->_logger_category );
 }
 
-has _logger_category => (
-    is  => 'lazy',
-    isa => Str,
-);
+has _logger_category => ( is => 'lazy', );
 
 #pod =method _build__logger_category
 #pod
@@ -61,7 +57,7 @@ MooX::Role::Logger - Provide logging via Log::Any
 
 =head1 VERSION
 
-version 0.004
+version 0.005
 
 =head1 SYNOPSIS
 

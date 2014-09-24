@@ -30,14 +30,13 @@ no_index:
 provides:
   MooX::Role::Logger:
     file: lib/MooX/Role/Logger.pm
-    version: '0.004'
+    version: '0.005'
   MooseX::Role::Logger:
     file: lib/MooseX/Role/Logger.pm
-    version: '0.004'
+    version: '0.005'
 requires:
   Log::Any: '0'
   Moo::Role: '0'
-  Types::Standard: '0'
   perl: '5.006'
   strict: '0'
   warnings: '0'
@@ -45,5 +44,5 @@ resources:
   bugtracker: https://github.com/dagolden/MooX-Role-Logger/issues
   homepage: https://github.com/dagolden/MooX-Role-Logger
   repository: https://github.com/dagolden/MooX-Role-Logger.git
-version: '0.004'
+version: '0.005'
 x_authority: cpan:DAGOLDEN
